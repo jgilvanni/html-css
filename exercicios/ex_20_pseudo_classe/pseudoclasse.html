@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classe</title>
+    <style>
+
+        /*
+            Seletores personalizados:
+
+            # = id
+            . = class
+            : = pseudo-class
+            :: = pseudo-element
+            >  = children
+
+        */
+
+
+        div{
+            border: solid blue;
+            outline: solid red;
+            display: inline-block;
+            background-color: aquamarine;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            border: 1px solid rgb(8, 4, 1);
+
+        }
+        #d2:hover{    /*    # é usado para representar 'id' no CSS    */
+           
+            background-color: #b33636;}
+
+        div > p {
+                display: none;
+            }
+        div:hover >p {
+            display:block;
+            color:white;
+            background: red;
+            width: 300;
+
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight:bold;
+        }
+        a:hover{
+            color:blue;
+            text-decoration: underline ;
+        }
+        a:active{
+            color: yellowgreen;
+        }
+        a::after{
+            content:'♖';
+        }
+        a::before{
+            content:' » ';}
+
+    </style> 
+</head>
+<body>
+    <div id="d1'">01</div>
+    <div id="d2">02 </div>
+    <div id="d3">03</div>
+    <p>passe o mouse sobre o texto abaixo!</p>
+    <div id="d4">
+        passe o mouse aqui!
+    <p>Texto oculto!</p>
+    </div>  
+    
+    <h1>Personalizando Links: </h1>
+    <ul>
+        <li><a href="https://github.com/jgilvanni?tab=repositories" target="_blank">Meu Github</a></li>
+
+        <li><a href="https://www.youtube.com/channel/UCEf-76Mz8az85Vawrce65VA" target="_blank">Meu YouTube</a></li>
+
+        <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po&ab_channel=CursoemV%C3%ADdeo" target="_blank">Esta aula</a></li>
+    </ul>
+</body>
+</html>

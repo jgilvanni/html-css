@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicas HTML Formatação:</title>
+</head>
+<body>
+<h1>Formatação de Textos</h1>
+<h2>Principais Formatações:</h2>
+<h2>Negrito e Destaques</h2>
+<P>Nesta frase temos um <b>termo em negrito</b> usandoa tag B (Não semântica)</P>
+<p>Nesta frase temos um <strong>termo em destaque</strong> usando a tag STRONG (semântica)</p>
+<p>Nesta frase temos um <i>termo em itálico</i> usandoa tag I (Não seântica).</p>
+<p>Nesta frase temos um <em>termo em destaque</em> usandoa tag EM (seântica).</p>
+<h2>Termo Marcado</h2>
+<p>Nesta frase temos um <mark>texto marcado</mark> usandoa tag MARK.</p>
+
+<p>Nesta frase temos outro <mark style="background-color: rgb(227, 179, 59);">texto marcado</mark> usandoa tag MARK.</p>
+<p>Nesta frase temos um <big>texto grande</big> e um <small>texto pequeno</small> usando as tags BIG e SMALL.</p>
+<P>Nesta frase temos um <del>texto excluido</del> e um <ins>texto inserido</ins> usando as tags DEL E INS (semânticas)</P>
+<P>Nesta frase temos um termo sobrescrito: X<sup>20</sup>+3 usandoa SUP.</P>
+<P>Nesta frase temos um termo subscrito: H<sub>2</sub>O (água), usandoa tag SUB</P>
+<h1>Outras Formatações:</h1>
+<h2>Código fonte / pre-formatação:</h2>
+<p> O comando <code>document.getElementeById('teste')</code> é escrito em JavaScript</p>
+<pre>
+    <code>
+        num = int(input('Digite um número'))
+        if num % 2 == 0:
+            print(f'O número {num} é Par')
+        else:
+            print(f'O número {num} é ímpar')
+        print(f'Fim do programa')
+    </code>
+</pre>
+<h2>Citações:</h2>
+<p>Como alguém disse: <q>O computador é um burro muito rápido.</q></p>
+<p>Segundo a Wikipédia:</p>
+     <blockquote cite="https://pt.wikipedia.org/wiki/Quantum">Na física um quantum (plural: quanta) é a menor quantidade de qualquer grandeza física envolvida numa interação.</blockquote>
+<h2>Significado de siglas/Abreviações:</h2>
+<p>Estamos estudando <abbr title="Hiper Text Markup language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr></p>
+<h2>Texto Invertido:</h2>
+<p><bdo dir="rtl"> As cores da arara são bonitas!</bdo></p>
+<p><a href="../index.html" target="_self">Voltar para a primeira página</p>
+</body>
+</html>
