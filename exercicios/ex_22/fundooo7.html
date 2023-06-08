@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertical</title>
+    <style>
+        #container {
+            position: relative;
+            height:96vh;            
+            background-image: url(imagens/target001.png) ;
+            background-size:  100% 100%;
+            background-color: rgb(58, 58, 174);
+            padding: 10px;            
+        }
+        #conteudo {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            background-size:  100% 100%;
+            height:200px;
+            width:400px;
+            background-color: rgb(249, 217, 72);
+            background-image: url(imagens/target001.png);
+            transform: translate(-50%, -50%);
+                                   
+        }
+        p {
+            padding: 10px;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+           <p><a href="https://www.youtube.com/watch?v=-w0Qo_qQiRg&t=157s&ab_channel=CursoemV%C3%ADdeo" target="_blank" >Veja a aula</a></p>
+
+        </article>
+    </section>
+
+    
+</body>
+</html> 
