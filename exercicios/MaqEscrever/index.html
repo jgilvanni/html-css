@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Máquina de Escrever</title>
+    <style>
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+        }
+        
+        @keyframes blinking {
+            50% {
+                border-color: transparent;
+            }
+            
+        }
+        p{
+           font-family: monospace;
+           border-right: 4px solid;
+            width:  61ch;
+            white-space: nowrap;
+            overflow: hidden;
+            animation: typing 5s steps(61), blinking 0.2s infinite step-end alternate;
+
+        }
+    </style>
+</head>
+<body>
+    <p>Isto é o efeito máquina de escrever, feito só com html e css.</p>
+</body>
+</html>
