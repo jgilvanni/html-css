@@ -13,8 +13,10 @@
         }
 
         table {
+
             width: 500px;
             border-collapse: collapse;
+            position: relative;   /* para que o cabeçãlho fixo funcione */
 
         }
         caption {
@@ -29,25 +31,26 @@
             color: white;
 
         }
+        
+        thead > tr> th {    /* configurações para o cabeçalho da tabela acompanhar a rolagem  */
+            position: sticky;
+            top: -1px;
+            background-color: rgb(61, 61, 61);
+
+        }
         tbody > tr:nth-child(2n){     /* faz "efeito zebrado" nas linhas (tr) de 2 em 2 */
         /*  se usar         (odd) faz nas linhas impares  */
         /*                  (even) faz nas linhas pares   */    
             background-color: lightgray;
         }
-        td.num {
-            text-align: right;
+        td {
+            text-align: left;
         }
-
-
-
+        
         td,th {
             border: solid 1px black;
             padding: 10px;
-            text-align: center;
-            /* alinhamento horizontal */
-            vertical-align: middle;
-            /* alnhamento vertical    */
-
+            
         }
         
     </style>
@@ -135,6 +138,25 @@
                 <td>Paraná</td>
                 <td class="num">11.433.957</td>
             </tr>
+            <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.264.943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14.873.064</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11.433.957</td>
+            </tr>
             
         <tfoot>
             <tr>
@@ -146,6 +168,10 @@
 
     </table>
     <p><a href="https://www.youtube.com/watch?v=IYUiFRE5hpI&ab_channel=CursoemV%C3%ADdeo#" target="_blank">Veja a aula!</a></p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aliquam debitis ea omnis deleniti totam, exercitationem vitae aperiam, cumque tempora fuga est eaque doloribus perferendis? Repellendus laudantium voluptatem unde officiis magni tenetur, omnis dolores natus perferendis quas reprehenderit architecto beatae! Delectus voluptate rem dicta tempore amet eius eaque, omnis vero recusandae fugit labore est esse, in, at repellendus incidunt suscipit. Natus itaque neque vel dolore distinctio quisquam, aliquam perspiciatis, magni ipsum quia optio aut necessitatibus tempore ratione praesentium facilis? Aut asperiores itaque voluptas excepturi! Facilis animi illo dolorum dolorem soluta reprehenderit, maiores aliquid alias quas at blanditiis neque amet ad. Nisi, laudantium dolores? Ullam optio aliquid quae at illo delectus quod quibusdam neque laudantium minus veritatis aperiam qui cum dolor nemo quia nostrum quas, id cumque architecto. Error enim aperiam qui explicabo corporis molestias? Labore enim nisi modi excepturi, quis, maxime ea eos blanditiis a quo quisquam tenetur? Laborum vero soluta id molestiae eligendi optio facilis accusantium, nobis nemo ducimus sint quae suscipit a magni expedita recusandae vitae necessitatibus quibusdam qui tempore quidem consectetur iusto debitis ad. A nemo fugiat, cumque aspernatur non, maiores quo libero dolores qui esse suscipit tempora molestias officiis voluptatum corrupti obcaecati veritatis fuga voluptate, inventore illo asperiores impedit adipisci? Qui autem dignissimos maxime amet soluta impedit iste unde, beatae sint consequatur perspiciatis veniam itaque laboriosam, omnis labore consectetur. Soluta commodi quos eaque pariatur culpa provident doloribus porro laborum earum. Qui omnis doloremque earum beatae aliquid modi adipisci odio eveniet architecto dolor asperiores unde id vero excepturi cum dolores laborum, assumenda recusandae distinctio aperiam obcaecati! Voluptate quisquam est tempore vel exercitationem id praesentium doloribus doloremque? Exercitationem earum et, similique temporibus mollitia consequatur, optio quaerat aperiam inventore iure quae praesentium hic laboriosam aut harum nihil illo maiores odit dicta vel porro unde excepturi maxime omnis. Esse, quo?</p>
+    <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni odio tenetur voluptas nihil fugiat ut nesciunt dolorem sunt dicta error distinctio provident eos numquam amet, harum pariatur impedit odit aliquam reprehenderit illo? Explicabo at quis reiciendis eligendi tenetur consequuntur voluptates. Odio repudiandae, quo blanditiis quas eos maiores facere placeat quaerat fuga quisquam officia, harum modi. Natus veniam at modi unde error reprehenderit illum nobis aspernatur asperiores! Ex adipisci temporibus fuga excepturi debitis optio itaque! Vitae, modi fuga? Ad doloremque blanditiis fuga quidem nulla similique nostrum modi obcaecati quaerat commodi odit facilis, mollitia labore hic? Ducimus tempora nesciunt quo quasi at rem iusto fugit labore voluptate dolore saepe velit laboriosam, et id autem aliquam atque libero ratione. Officia laborum incidunt vel quis obcaecati, deleniti sapiente facere eligendi veniam ratione atque, cupiditate repellat eius voluptatum saepe natus inventore laboriosam enim alias ex voluptatibus? Nesciunt praesentium, labore quae architecto incidunt quibusdam animi enim aspernatur impedit ad eaque atque molestiae laborum quod maiores ab error dolorum. Unde at laudantium voluptas vero saepe ipsam laborum laboriosam officiis, explicabo ad repudiandae accusantium molestias dolor distinctio nostrum blanditiis molestiae corrupti ex quasi? Earum tempore consequatur porro obcaecati, vero accusamus magni molestiae odit perferendis ducimus animi, non quisquam similique quidem. Consequatur quam accusamus corporis corrupti delectus dolores facilis beatae sit fuga dolor! Soluta quas reprehenderit labore voluptatum nulla velit iusto voluptate sunt debitis ipsum, natus aliquid incidunt maiores nobis! Fugit fugiat error enim, animi voluptatum alias recusandae, laboriosam dolores quis, dolor dicta delectus modi? Eius distinctio illo autem harum aliquid perspiciatis doloremque provident! Tenetur perspiciatis placeat ducimus ratione explicabo voluptatum nesciunt in repellat nostrum nemo quas sequi eaque exercitationem culpa, quae consequuntur molestiae numquam quibusdam? Velit aspernatur odit temporibus harum optio quasi officia aliquam magnam autem repellat, repellendus totam repudiandae, quibusdam cum ex itaque rem ducimus commodi consectetur!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum neque culpa eum natus iste voluptatem quis officiis, aliquam illo quas. Exercitationem, rerum molestias nisi doloribus repellat odio a doloremque saepe culpa fugit est quod. Minus nostrum laborum dignissimos et eius, sed eos, excepturi tenetur deserunt modi perspiciatis ad iusto itaque recusandae possimus voluptas ipsa esse error! Consequuntur numquam dolorum nisi? Esse qui doloribus reiciendis eos autem, veritatis adipisci illo sequi ducimus ex, voluptate non ad consequuntur porro corrupti hic nisi ratione! Magnam accusantium doloremque porro amet, aliquid commodi nam numquam repellat dolores architecto tenetur reprehenderit, non ullam exercitationem, deserunt impedit in ab. Optio exercitationem repellat debitis itaque quos necessitatibus consequuntur nemo, placeat dolore eveniet ut, cum ipsa provident saepe officia dignissimos, labore odio. Hic laborum, explicabo natus aliquam, delectus necessitatibus sequi eaque quam placeat ipsam suscipit nam. Excepturi molestiae esse odio sunt laborum necessitatibus, molestias natus repellendus odit obcaecati reprehenderit nihil possimus dignissimos recusandae iure soluta quibusdam maiores perspiciatis, ab rerum animi minima culpa. Necessitatibus tempora ipsam dolorem officiis unde nesciunt dolores dolor asperiores quis fuga facere itaque eum, ab saepe et reprehenderit sequi accusamus quia, adipisci hic aliquam deserunt. Quaerat deserunt sunt dolore molestias totam eius quod, provident maiores, distinctio nam quibusdam velit facere! Illo beatae ducimus, perspiciatis dicta ullam quam quasi. Velit maxime architecto, asperiores ea magni doloremque sequi. Eaque eum excepturi quas? Voluptatibus modi earum repudiandae aut vitae quo esse numquam laboriosam molestiae nisi. Ipsum est aliquam itaque suscipit, assumenda, eaque at sit voluptatibus veniam id quia cum. Sint impedit ratione placeat laudantium, consequatur sequi nam quo quasi accusamus odit reiciendis vero soluta cum illum in molestiae nihil accusantium non aliquam expedita qui magnam. Dolore facilis deserunt saepe nihil reiciendis. Voluptatibus repellat, itaque quisquam perferendis, molestias ipsum cupiditate, fugiat aliquid tenetur dolorem odio ipsam necessitatibus ad architecto.</p>
 
 </body>
 

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesclagem de Células</title>
+    <style>
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 300px;
+        }
+        td {
+            border: solid 1px black;
+            padding: 10px;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <h1> Mesclagem de Células</h1>
+
+    <h2>Tabela origem:</h2>
+    <table>
+        <tr>
+            <td>A</td>
+            <td bgcolor="lightgray">B</td>
+            <td>C</td>
+            
+                       
+        </tr>
+        <tr>
+            <td bgcolor="lightgray">D</td>
+            <td>E</td>
+            <td>F</td>
+            
+        </tr>
+        <tr>
+            
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+            
+        </tr>
+        <tr>
+            <td>J</td>
+            <td>L</td>
+            <td>M</td>
+        </tr>
+    </table>
+
+
+
+    <h2>Tabela resultado:</h2>
+    <P>A célula B foi mesclada para ocupar duas colunas (colspan = "2") e a célula D foi mesclada para ocupar 3 linhas (rowspan = "3").
+    <p><a href="https://www.youtube.com/watch?v=olZgL09uDAU&ab_channel=CursoemV%C3%ADdeo" target="_blank">Veja a aula.</a></p>
+
+
+
+    <table>
+        <tr>
+            <td>A</td>
+            <td colspan="2" bgcolor="lightgray">B</td>
+                       
+        </tr>
+        <tr>
+            <td rowspan="3" bgcolor="lightgray">D</td>
+            <td>E</td>
+            <td>F</td>
+            
+        </tr>
+        <tr>
+            
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            
+            <td>L</td>
+            <td>M</td>
+        </tr>
+    </table>
+</body>
+</html>
